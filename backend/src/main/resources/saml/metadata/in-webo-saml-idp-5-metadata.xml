@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.bulbizarre.dev.devil.ninja/console/c/5/saml2/12/metadata">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDjzCCAnegAwIBAgIUH0BJHVf/D9rlHTRLJuEXZiT1hmIwDQYJKoZIhvcNAQELBQAwVzELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBhcmlzMR0wGwYDVQQKDBRJbi1XZWJvIFRlY2hub2xvZ2llczEZMBcGA1UEAwwQd3d3Lm15aW53ZWJvLmNvbTAeFw0yMTA2MDMwNzM0MDBaFw0zMTA2MDMwNzM0MDBaMFcxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQYXJpczEdMBsGA1UECgwUSW4tV2VibyBUZWNobm9sb2dpZXMxGTAXBgNVBAMMEHd3dy5teWlud2Viby5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGVo1Pjow+Ufu23SLO1pn/NZkfvvN8mw0UQ7+K2Vju25aXW17bnR4Kq32H0mr3+IhmIA+JzOO3tW9P7BE6RKk9otk31WFUrbx75cAlNE6Y8hvwz7RvjSCMqIKd1MpG8uolAifIWyF+5Wb1QAb99T2LYnthcy3XT2i6iDaNw+vkuG3yzudDlRumv1D1n9zKnzlVIGXW3IlW6Jei/PBXjtYfcYGKfJo3nJ1GVqRuVymW974gSg/RKt85TT8D0eZJGk/MAgebuJYsGWSKaZEm9elyDJsWnOCSPM4Nm0qvCF7bnp1hrr+XU58dFfmleTGQSAG9RvhSNw3nzepSeicrGsTTAgMBAAGjUzBRMB0GA1UdDgQWBBRmxJ/AtK4lgY99kcKQtvkVp6MEDjAfBgNVHSMEGDAWgBRmxJ/AtK4lgY99kcKQtvkVp6MEDjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDAHtb0cVRmoAAeqttavfgBaDl840BPdhButN9ov1Mx5D+J31xW0RiQz/U4P/R5N0sNLzJc7qPjz/vvAur/QBkL6d/94SIv4ImwcQIkDSxCgC2XCImWEtmGPBCV4XmS+ZP85yy7DIBVoI3Ym9lMlMvYeOPcZlBDAoQZfAFUqhpgNas6QAOQ65gGDcYpe9pBy6ynrbovdR+RT/7/JkGD0UG3nA1fOgOns1VAdWpNNYd1uAIDA5nDLk3bfTb0o92DDxzjtSaicJp3wPWhfa0qaGAqzH0Q1grnZ49EykDSaBMgBoTSHGt/4JsMPoji3lS61bPo0DG/GjCfYAqkU5bI85LU</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDjzCCAnegAwIBAgIUH0BJHVf/D9rlHTRLJuEXZiT1hmIwDQYJKoZIhvcNAQELBQAwVzELMAkGA1UEBhMCRlIxDjAMBgNVBAcMBVBhcmlzMR0wGwYDVQQKDBRJbi1XZWJvIFRlY2hub2xvZ2llczEZMBcGA1UEAwwQd3d3Lm15aW53ZWJvLmNvbTAeFw0yMTA2MDMwNzM0MDBaFw0zMTA2MDMwNzM0MDBaMFcxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQYXJpczEdMBsGA1UECgwUSW4tV2VibyBUZWNobm9sb2dpZXMxGTAXBgNVBAMMEHd3dy5teWlud2Viby5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGVo1Pjow+Ufu23SLO1pn/NZkfvvN8mw0UQ7+K2Vju25aXW17bnR4Kq32H0mr3+IhmIA+JzOO3tW9P7BE6RKk9otk31WFUrbx75cAlNE6Y8hvwz7RvjSCMqIKd1MpG8uolAifIWyF+5Wb1QAb99T2LYnthcy3XT2i6iDaNw+vkuG3yzudDlRumv1D1n9zKnzlVIGXW3IlW6Jei/PBXjtYfcYGKfJo3nJ1GVqRuVymW974gSg/RKt85TT8D0eZJGk/MAgebuJYsGWSKaZEm9elyDJsWnOCSPM4Nm0qvCF7bnp1hrr+XU58dFfmleTGQSAG9RvhSNw3nzepSeicrGsTTAgMBAAGjUzBRMB0GA1UdDgQWBBRmxJ/AtK4lgY99kcKQtvkVp6MEDjAfBgNVHSMEGDAWgBRmxJ/AtK4lgY99kcKQtvkVp6MEDjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDAHtb0cVRmoAAeqttavfgBaDl840BPdhButN9ov1Mx5D+J31xW0RiQz/U4P/R5N0sNLzJc7qPjz/vvAur/QBkL6d/94SIv4ImwcQIkDSxCgC2XCImWEtmGPBCV4XmS+ZP85yy7DIBVoI3Ym9lMlMvYeOPcZlBDAoQZfAFUqhpgNas6QAOQ65gGDcYpe9pBy6ynrbovdR+RT/7/JkGD0UG3nA1fOgOns1VAdWpNNYd1uAIDA5nDLk3bfTb0o92DDxzjtSaicJp3wPWhfa0qaGAqzH0Q1grnZ49EykDSaBMgBoTSHGt/4JsMPoji3lS61bPo0DG/GjCfYAqkU5bI85LU</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.bulbizarre.dev.devil.ninja/console/c/5/saml2/12"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.bulbizarre.dev.devil.ninja/console/c/5/saml2/12/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
